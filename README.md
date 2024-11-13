@@ -1,18 +1,18 @@
 
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 
-# << Project Title >>
-## CS110 Final Project  << Semester, Year >>
+# Trivia Master
+## CS110 Final Project  Fall, 2024
 
 ## Team Members
 
-<< List team member names >>
+Kris Patel
 
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
+A quiz game with randomized questions and 4 choices for answers. It keeps track of your score, and you have three lives.
 
 ***    
 
@@ -30,15 +30,18 @@
 
 ### Features
 
-1. << Feature 1 >>
-2. << Feature 2 >>
-3. << Feature 3 >>
-4. << Feature 4 >>
-5. << Feature 5 >>
+1. Random Question Generation
+2. Multiple Choices
+3. Score Keeper
+4. Life tracker
+5. Power-ups
 
 ### Classes
 
-- << You should have a list of each of your classes with a description >>
+- Question: 
+- Answers: 
+- Lives: 
+- Score: 
 
 ## ATP
 
