@@ -1,10 +1,13 @@
+import from assets 
+
 class Lives:
-    def __init__(self, lives=3, x=[], y=[], image_file):
+    def __init__(self, lives=3):
         self.lives = lives
-        self.x = x
-        self.y = y
-        self.image = image_file
+        self.x = 0
+        self.y = 0
+        self.image = heart.jpg
     def deduct(self):
-        pass
+        self.lives -= 1
     def game_over(self):
-        pass
+        if self.lives == 0:
+            exit()
