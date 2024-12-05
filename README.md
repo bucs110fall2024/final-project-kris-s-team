@@ -45,8 +45,11 @@ A quiz game with randomized questions and 4 choices for answers. It keeps track 
 
 ## ATP
 
-| Step                 |Procedure             |Expected Results                   |
+| Test Case              |Procedure             |Expected Results                   |
 |----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+|  1  Start Program      | Type python3 main.py into terminal and click enter     |GUI window appears with menu that has a start button  |
+|  2  Score Counter      | Start game, answer a question correctly                | score changes to be = 1                              |
+|  3  Life removal       | Start game, answer a question incorrectly              | lives change from 3 to 2                             |
+|  4  Random Question    | Start game, answer a question correctly                | next question should be different                    |
+|  5  Game Over          | Start game, answer 3 questions incorrectly             | display gameover                                     |
+
