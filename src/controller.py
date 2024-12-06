@@ -81,7 +81,7 @@ class Controller:
         
         question = html.unescape(trivia["question"])
         correct_ans = trivia["correct_answer"]
-        choices = html.unescape(trivia["incorrect_answers"] + [correct_ans])
+        choices = [html.unescape(answer) for answer in trivia["incorrect_answers"] + [correct_ans]]
         random.shuffle(choices)
         choice_buttons = [
           Answers(200, 200 + i * 100, 800, 50, (255, 255, 255), answer)
