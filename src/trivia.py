@@ -12,8 +12,4 @@ class Trivia:
             return triv_data["results"]
         else:
             return None
-        
-        
-            
-    def change_category(self, category):
-        pass
+

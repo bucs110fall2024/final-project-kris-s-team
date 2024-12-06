@@ -16,6 +16,8 @@ A quiz game with randomized questions and 4 choices for answers. It keeps track 
 
 ***    
 
+## Uses pygame_menu for external module
+
 ## GUI Design
 
 ### Initial Design
@@ -24,7 +26,7 @@ A quiz game with randomized questions and 4 choices for answers. It keeps track 
 
 ### Final Design
 
-![final gui](assets/finalgui.jpg)
+![final gui](assets/finalgui.png)
 
 ## Program Design
 
@@ -34,14 +36,13 @@ A quiz game with randomized questions and 4 choices for answers. It keeps track 
 2. Multiple Choices
 3. Score Keeper
 4. Life tracker
-5. Power-ups
+5. Menu
 
 ### Classes
 
-- Question: 
-- Answers: 
-- Lives: 
-- Score: 
+- Trivia: Takes data from trivia API
+- Answers: Creates answer buttons
+- Lives: Keeps track of lives
 
 ## ATP
 
