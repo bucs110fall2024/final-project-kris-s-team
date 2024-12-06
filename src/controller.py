@@ -38,7 +38,11 @@ class Controller:
     self.state = "menu"
     
   def mainloop(self):
-    
+    """
+    This method loops through and detects the state of the program.
+    args: none
+    returns: none
+    """
     while True:
       if self.state == "menu":
         self.menuloop()
@@ -51,7 +55,11 @@ class Controller:
   
 
   def menuloop(self):
-    
+    """
+    This method updates the menu.
+    args: none
+    returns: none
+    """
     while self.state == "menu":
       if self.menu.is_enabled():
         self.menu.update(pygame.event.get())
@@ -60,6 +68,11 @@ class Controller:
       pygame.display.flip()
       
   def gameloop(self):
+    """
+    This method enacts game processes such as displaying questions and answers.
+    args: none
+    returns: none
+    """
     
     while self.state == "game":
       
@@ -130,9 +143,19 @@ class Controller:
 
         
   def start_game(self):
+    """
+    This method puts the program state into game.
+    args: none
+    returns: none
+    """
     self.state = "game"
     
   def gameoverloop(self):
+    """
+    This method resets the game when it is over.
+    args: none
+    returns: none
+    """
     self.lives.reset()
     font = pygame.font.SysFont(None, 72)
     game_over_surface = font.render("Game Over!", True, (255, 0, 0))
